@@ -32,7 +32,7 @@ const Elements = () => {
             <form onSubmit={handleSubmit}>
                 <Card className="flex items-center justify-center flex-col">
                     <CardHeader className="text-xl">
-                        <CardTitle>Signup</CardTitle>
+                        <CardTitle className="text-3xl">Signup</CardTitle>
                         <CardDescription>Fill in to continue</CardDescription>
                     </CardHeader>
                     <CardContent className="flex flex-col mx-4">
