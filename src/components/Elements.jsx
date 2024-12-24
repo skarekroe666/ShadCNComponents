@@ -19,7 +19,7 @@ const Elements = () => {
     const [password, setPassword] = useState("")
 
     const handleSubmit = () => {
-        e.preventDefault()
+        // e.preventDefault()
         if (!name || !email || !password) {
             alert("Please fill in all fields")
         } else {
